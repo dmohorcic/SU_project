@@ -17,3 +17,9 @@ conda install pytorch-forecasting
 
 conda install statsmodels -c conda-forge
 ```
+
+## Structure
+
+## Data
+
+https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014
