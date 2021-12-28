@@ -125,11 +125,13 @@ python run_pems.py --dataset PEMS04 --model_name pems04_h0.0625_dp0 --evaluate T
 pems07
 ```
 python run_pems.py --dataset PEMS07 --hidden-size 0.03125 --dropout 0.25 --model_name pems07_h0.03125_dp0.25
+python run_pems.py --dataset PEMS04 --model_name pems07_h0.03125_dp0.25 --evaluate True
 ```
 
 pems08
 ```
 python run_pems.py --dataset PEMS08 --hidden-size 1 --dropout 0.5 --model_name pems08_h1_dp0.5
+python run_pems.py --dataset PEMS04 --model_name pems08_h1_dp0.5 --evaluate True
 ```
 
 ##### PEMS Parameter highlights
