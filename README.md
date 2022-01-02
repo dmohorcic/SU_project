@@ -37,10 +37,10 @@ For SCINet the data from the second link must be placed inside `SCINet/datasets/
 
 We have code for four different models. Each model is in its own folder:
 
-1. ARIMA
-2. TRMF
-3. DeepAR
-4. SCINet
+1. ARIMA (part of statsmodels package)
+2. TRMF ([TRMF on GitHub](https://github.com/SemenovAlex/trmf))
+3. DeepAR (part of pytorch-forecasting package)
+4. SCINet ([SCINet on GitHub](https://github.com/cure-lab/SCINet))
 
 Inside first three folders is a Jupyter Notebook called `<model>_test.ipynb` which has the code for reproducibility. The SCINet model is run with provided commands in author's README.md file.
 
