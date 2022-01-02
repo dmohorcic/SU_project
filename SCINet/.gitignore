@@ -1,6 +1,7 @@
 log/
 model/
-datasets/
+datasets/*
+!datasets/.keep
 dataset/
 *.txt
 *.pyc
